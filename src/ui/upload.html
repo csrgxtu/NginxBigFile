@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery File Upload Example</title>
+    <style>
+      table {
+        width: 90%;
+        border: 1px solid #ccc;
+        color: #888;
+        margin-top: 20px;
+        padding: 10px 0px 10px 0px;
+      }
+
+      tr {
+        height: 30px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      td.filename {
+        width: 25%;
+      }
+
+      .bar {
+        background-color: green;
+        display: block;
+        text-align: center;
+      }
+
+      td.progress {
+        width: 20%;
+        border: 1px solid #ccc;
+        padding: 0px;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      td.start {
+        width: 10%;
+      }
+
+      td.cancel {
+        width: 30%;
+      }
+
+      th { 
+        text-align: left;
+      }
+
+    </style>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="/blueimp/js/vendor/jquery.ui.widget.js"></script>
+    <script src="/blueimp/js/jquery.iframe-transport.js"></script>
+    <script src="/blueimp/js/jquery.fileupload.js"></script>
+    <script src="/blueimp/js/jquery.base64.js" type="text/javascript"></script>
+    <script src="/blueimp/js/json2.js" type="text/javascript"></script>
+    <script src="/bluimp/js/customUploader.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <input id="fileupload" type="file" name="files[]" data-url="http://some-external-site.com/upload" multiple>
+
+    <button id="start_upload" type="button">Start uploads</button> &nbsp;
+    <button id="stop_uploads" type="button">Cancel all uploads</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span>Total progress: <span id="total_progress">0%</span></span>
+
+    <table id="files">
+    </table>
+  </body>
+</html>
