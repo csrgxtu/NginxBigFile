@@ -1,0 +1,28 @@
+2015/03/06 21:18:41 [notice] 21106#0: using the "epoll" event method
+2015/03/06 21:18:41 [notice] 21106#0: nginx/1.5.3
+2015/03/06 21:18:41 [notice] 21106#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/03/06 21:18:41 [notice] 21106#0: OS: Linux 3.13.0-44-generic
+2015/03/06 21:18:41 [notice] 21106#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/06 21:18:41 [notice] 21107#0: start worker processes
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21108
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21109
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21110
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21111
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21112
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21113
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21114
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21115
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21116
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21117
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21118
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21119
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21120
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21121
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21122
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21123
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21124
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21125
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21126
+2015/03/06 21:18:41 [notice] 21107#0: start worker process 21127
+2015/03/06 21:19:07 [error] 21108#0: *1 open() "/home/archer/Documents/NginxBigFile/src/nginx-1.5.3//html/upload" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2015/03/06 21:19:54 [error] 21108#0: *1 open() "/home/archer/Documents/NginxBigFile/src/nginx-1.5.3//html/upload" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /upload HTTP/1.1", host: "localhost:8888"
