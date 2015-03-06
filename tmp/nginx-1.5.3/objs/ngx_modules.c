@@ -37,6 +37,7 @@ extern ngx_module_t  ngx_http_browser_module;
 extern ngx_module_t  ngx_http_upstream_ip_hash_module;
 extern ngx_module_t  ngx_http_upstream_least_conn_module;
 extern ngx_module_t  ngx_http_upstream_keepalive_module;
+extern ngx_module_t  ngx_http_upload_module;
 extern ngx_module_t  ngx_http_write_filter_module;
 extern ngx_module_t  ngx_http_header_filter_module;
 extern ngx_module_t  ngx_http_chunked_filter_module;
@@ -47,7 +48,6 @@ extern ngx_module_t  ngx_http_ssi_filter_module;
 extern ngx_module_t  ngx_http_charset_filter_module;
 extern ngx_module_t  ngx_http_userid_filter_module;
 extern ngx_module_t  ngx_http_headers_filter_module;
-extern ngx_module_t  ngx_http_echo_module;
 extern ngx_module_t  ngx_http_copy_filter_module;
 extern ngx_module_t  ngx_http_range_body_filter_module;
 extern ngx_module_t  ngx_http_not_modified_filter_module;
@@ -86,6 +86,7 @@ ngx_module_t *ngx_modules[] = {
     &ngx_http_upstream_ip_hash_module,
     &ngx_http_upstream_least_conn_module,
     &ngx_http_upstream_keepalive_module,
+    &ngx_http_upload_module,
     &ngx_http_write_filter_module,
     &ngx_http_header_filter_module,
     &ngx_http_chunked_filter_module,
@@ -96,7 +97,6 @@ ngx_module_t *ngx_modules[] = {
     &ngx_http_charset_filter_module,
     &ngx_http_userid_filter_module,
     &ngx_http_headers_filter_module,
-    &ngx_http_echo_module,
     &ngx_http_copy_filter_module,
     &ngx_http_range_body_filter_module,
     &ngx_http_not_modified_filter_module,
