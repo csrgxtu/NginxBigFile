@@ -26,3 +26,126 @@
 2015/03/06 21:18:41 [notice] 21107#0: start worker process 21127
 2015/03/06 21:19:07 [error] 21108#0: *1 open() "/home/archer/Documents/NginxBigFile/src/nginx-1.5.3//html/upload" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", host: "localhost:8888", referrer: "http://localhost:8888/"
 2015/03/06 21:19:54 [error] 21108#0: *1 open() "/home/archer/Documents/NginxBigFile/src/nginx-1.5.3//html/upload" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /upload HTTP/1.1", host: "localhost:8888"
+2015/03/06 21:26:28 [notice] 21108#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21108#0: exiting
+2015/03/06 21:26:28 [notice] 21108#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21113#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21113#0: exiting
+2015/03/06 21:26:28 [notice] 21113#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21108 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21110#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21110#0: exiting
+2015/03/06 21:26:28 [notice] 21110#0: exit
+2015/03/06 21:26:28 [notice] 21118#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21118#0: exiting
+2015/03/06 21:26:28 [notice] 21123#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21123#0: exiting
+2015/03/06 21:26:28 [notice] 21118#0: exit
+2015/03/06 21:26:28 [notice] 21123#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21110 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21113 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21112#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21112#0: exiting
+2015/03/06 21:26:28 [notice] 21112#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21118 exited with code 0
+2015/03/06 21:26:28 [notice] 21115#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21115#0: exiting
+2015/03/06 21:26:28 [notice] 21111#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21111#0: exiting
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21115#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21123 exited with code 0
+2015/03/06 21:26:28 [notice] 21111#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21124#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21124#0: exiting
+2015/03/06 21:26:28 [notice] 21124#0: exit
+2015/03/06 21:26:28 [notice] 21126#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21126#0: exiting
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21126#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21111 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21112 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21115 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21124 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21126 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21127#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21127#0: exiting
+2015/03/06 21:26:28 [notice] 21127#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21114#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21114#0: exiting
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21127 exited with code 0
+2015/03/06 21:26:28 [notice] 21114#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21114 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21125#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21125#0: exiting
+2015/03/06 21:26:28 [notice] 21125#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21125 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21119#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21119#0: exiting
+2015/03/06 21:26:28 [notice] 21119#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21122#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21119 exited with code 0
+2015/03/06 21:26:28 [notice] 21122#0: exiting
+2015/03/06 21:26:28 [notice] 21122#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21122 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21116#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21116#0: exiting
+2015/03/06 21:26:28 [notice] 21116#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21116 exited with code 0
+2015/03/06 21:26:28 [notice] 21117#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21117#0: exiting
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21117#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21117 exited with code 0
+2015/03/06 21:26:28 [notice] 21109#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21109#0: exiting
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21109#0: exit
+2015/03/06 21:26:28 [notice] 21121#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21120#0: signal 15 (SIGTERM) received, exiting
+2015/03/06 21:26:28 [notice] 21120#0: exiting
+2015/03/06 21:26:28 [notice] 21120#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21109 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21121#0: exiting
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21120 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: signal 29 (SIGIO) received
+2015/03/06 21:26:28 [notice] 21121#0: exit
+2015/03/06 21:26:28 [notice] 21107#0: signal 17 (SIGCHLD) received
+2015/03/06 21:26:28 [notice] 21107#0: worker process 21121 exited with code 0
+2015/03/06 21:26:28 [notice] 21107#0: exit
