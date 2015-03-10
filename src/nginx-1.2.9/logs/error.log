@@ -939,3 +939,246 @@
 2015/03/10 13:31:36 [notice] 16993#0: start worker process 17011
 2015/03/10 13:31:36 [notice] 16993#0: start worker process 17012
 2015/03/10 13:31:36 [notice] 16993#0: start worker process 17013
+2015/03/10 13:55:33 [notice] 16997#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16993#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16996#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17004#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16997#0: exiting
+2015/03/10 13:55:33 [notice] 16996#0: exiting
+2015/03/10 13:55:33 [notice] 17004#0: exiting
+2015/03/10 13:55:33 [notice] 16996#0: exit
+2015/03/10 13:55:33 [notice] 16997#0: exit
+2015/03/10 13:55:33 [notice] 17004#0: exit
+2015/03/10 13:55:33 [notice] 16998#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16998#0: exiting
+2015/03/10 13:55:33 [notice] 16998#0: exit
+2015/03/10 13:55:33 [notice] 17013#0: exiting
+2015/03/10 13:55:33 [notice] 17013#0: exit
+2015/03/10 13:55:33 [notice] 16994#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16994#0: exiting
+2015/03/10 13:55:33 [notice] 16994#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 16996 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 16998 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17004 exited with code 0
+2015/03/10 13:55:33 [notice] 17007#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17007#0: exiting
+2015/03/10 13:55:33 [notice] 17007#0: exit
+2015/03/10 13:55:33 [notice] 17000#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17000#0: exiting
+2015/03/10 13:55:33 [notice] 17000#0: exit
+2015/03/10 13:55:33 [notice] 17008#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17008#0: exiting
+2015/03/10 13:55:33 [notice] 17011#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17011#0: exiting
+2015/03/10 13:55:33 [notice] 17008#0: exit
+2015/03/10 13:55:33 [notice] 17011#0: exit
+2015/03/10 13:55:33 [notice] 17006#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17006#0: exiting
+2015/03/10 13:55:33 [notice] 17009#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17009#0: exiting
+2015/03/10 13:55:33 [notice] 17006#0: exit
+2015/03/10 13:55:33 [notice] 17009#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 16994 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17000 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17006 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17007 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17008 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17011 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17013 exited with code 0
+2015/03/10 13:55:33 [notice] 16999#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16999#0: exiting
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17009 exited with code 0
+2015/03/10 13:55:33 [notice] 17001#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16999#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 17001#0: exiting
+2015/03/10 13:55:33 [notice] 16995#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17001#0: exit
+2015/03/10 13:55:33 [notice] 16995#0: exiting
+2015/03/10 13:55:33 [notice] 16995#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 17005#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16993#0: worker process 16999 exited with code 0
+2015/03/10 13:55:33 [notice] 17005#0: exiting
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 17002#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17001 exited with code 0
+2015/03/10 13:55:33 [notice] 17005#0: exit
+2015/03/10 13:55:33 [notice] 17002#0: exiting
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 16997 exited with code 0
+2015/03/10 13:55:33 [notice] 17010#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 17002#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 17010#0: exiting
+2015/03/10 13:55:33 [notice] 17010#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 16995 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17005 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17002 exited with code 0
+2015/03/10 13:55:33 [notice] 17003#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17010 exited with code 0
+2015/03/10 13:55:33 [notice] 17003#0: exiting
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 17003#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 17012#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17003 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: signal 29 (SIGIO) received
+2015/03/10 13:55:33 [notice] 17012#0: exiting
+2015/03/10 13:55:33 [notice] 17012#0: exit
+2015/03/10 13:55:33 [notice] 16993#0: signal 17 (SIGCHLD) received
+2015/03/10 13:55:33 [notice] 16993#0: worker process 17012 exited with code 0
+2015/03/10 13:55:33 [notice] 16993#0: exit
+2015/03/10 13:55:47 [notice] 26707#0: using the "epoll" event method
+2015/03/10 13:55:47 [notice] 26707#0: nginx/1.2.9
+2015/03/10 13:55:47 [notice] 26707#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/03/10 13:55:47 [notice] 26707#0: OS: Linux 3.13.0-44-generic
+2015/03/10 13:55:47 [notice] 26707#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/10 13:55:47 [notice] 26708#0: start worker processes
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26709
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26710
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26711
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26712
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26713
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26714
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26715
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26716
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26717
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26718
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26719
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26720
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26721
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26722
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26723
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26724
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26725
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26726
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26727
+2015/03/10 13:55:47 [notice] 26708#0: start worker process 26728
+2015/03/10 14:01:12 [notice] 26709#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26711#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26709#0: exiting
+2015/03/10 14:01:12 [notice] 26711#0: exiting
+2015/03/10 14:01:12 [notice] 26711#0: exit
+2015/03/10 14:01:12 [notice] 26709#0: exit
+2015/03/10 14:01:12 [notice] 26712#0: exiting
+2015/03/10 14:01:12 [notice] 26712#0: exit
+2015/03/10 14:01:12 [notice] 26715#0: exiting
+2015/03/10 14:01:12 [notice] 26715#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26709 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26712 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26715 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26724#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26724#0: exiting
+2015/03/10 14:01:12 [notice] 26724#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26724 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26714#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26714#0: exiting
+2015/03/10 14:01:12 [notice] 26714#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26710#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26714 exited with code 0
+2015/03/10 14:01:12 [notice] 26710#0: exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26710#0: exit
+2015/03/10 14:01:12 [notice] 26720#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26720#0: exiting
+2015/03/10 14:01:12 [notice] 26720#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26710 exited with code 0
+2015/03/10 14:01:12 [notice] 26723#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26723#0: exiting
+2015/03/10 14:01:12 [notice] 26723#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26711 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26720 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26719#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26717#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26719#0: exiting
+2015/03/10 14:01:12 [notice] 26717#0: exiting
+2015/03/10 14:01:12 [notice] 26719#0: exit
+2015/03/10 14:01:12 [notice] 26717#0: exit
+2015/03/10 14:01:12 [notice] 26713#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26723 exited with code 0
+2015/03/10 14:01:12 [notice] 26713#0: exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26713#0: exit
+2015/03/10 14:01:12 [notice] 26727#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26727#0: exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26719 exited with code 0
+2015/03/10 14:01:12 [notice] 26728#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26717 exited with code 0
+2015/03/10 14:01:12 [notice] 26716#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26728#0: exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26716#0: exiting
+2015/03/10 14:01:12 [notice] 26728#0: exit
+2015/03/10 14:01:12 [notice] 26727#0: exit
+2015/03/10 14:01:12 [notice] 26716#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26713 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26721#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26716 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26728 exited with code 0
+2015/03/10 14:01:12 [notice] 26722#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26721#0: exiting
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26722#0: exiting
+2015/03/10 14:01:12 [notice] 26721#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26727 exited with code 0
+2015/03/10 14:01:12 [notice] 26722#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26726#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26726#0: exiting
+2015/03/10 14:01:12 [notice] 26726#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26718#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26721 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26722 exited with code 0
+2015/03/10 14:01:12 [notice] 26718#0: exiting
+2015/03/10 14:01:12 [notice] 26718#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26725#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26726 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26725#0: exiting
+2015/03/10 14:01:12 [notice] 26725#0: exit
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26718 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: signal 29 (SIGIO) received
+2015/03/10 14:01:12 [notice] 26708#0: signal 17 (SIGCHLD) received
+2015/03/10 14:01:12 [notice] 26708#0: worker process 26725 exited with code 0
+2015/03/10 14:01:12 [notice] 26708#0: exit
