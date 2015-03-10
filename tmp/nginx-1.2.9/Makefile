@@ -12,10 +12,10 @@ install:
 	$(MAKE) -f objs/Makefile install
 
 upgrade:
-	/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin/nginx -t
+	/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9a/sbin/nginx -t
 
-	kill -USR2 `cat /home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs/nginx.pid`
+	kill -USR2 `cat /home/archer/Downloads/NginxBigFile/src/nginx-1.2.9a/logs/nginx.pid`
 	sleep 1
-	test -f /home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs/nginx.pid.oldbin
+	test -f /home/archer/Downloads/NginxBigFile/src/nginx-1.2.9a/logs/nginx.pid.oldbin
 
-	kill -QUIT `cat /home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs/nginx.pid.oldbin`
+	kill -QUIT `cat /home/archer/Downloads/NginxBigFile/src/nginx-1.2.9a/logs/nginx.pid.oldbin`

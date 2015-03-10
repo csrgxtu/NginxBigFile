@@ -1,1 +1,0 @@
-2015/03/10 13:32:46 [error] 17025#0: *1 connect() to 127.0.0.0:8889 failed (101: Network is unreachable) while connecting to upstream, client: 127.0.0.1, server: my-upload-endpoint.com, request: "OPTIONS /upload HTTP/1.1", upstream: "http://127.0.0.0:8889/upload", host: "www.my-upload-endpoint.com:8888", referrer: "http://www.somesite.com:9393/"

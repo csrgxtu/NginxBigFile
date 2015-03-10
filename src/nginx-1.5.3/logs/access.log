@@ -1,1 +1,0 @@
-127.0.0.1 - - [10/Mar/2015:13:32:46 +0800] "OPTIONS /upload HTTP/1.1" 502 574 "http://www.somesite.com:9393/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.91 Safari/537.36"
