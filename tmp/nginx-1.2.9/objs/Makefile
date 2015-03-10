@@ -1090,47 +1090,47 @@ objs/addon/nginx-upload-module-2.2m/ngx_http_upload_module.o:	$(ADDON_DEPS) \
 manpage:	objs/nginx.8
 
 objs/nginx.8:	man/nginx.8 objs/ngx_auto_config.h
-	sed -e "s|%%PREFIX%%|/home/archer/Documents/NginxBigFile/src/nginx-1.2.9|" \
-		-e "s|%%PID_PATH%%|/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs/nginx.pid|" \
-		-e "s|%%CONF_PATH%%|/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/nginx.conf|" \
-		-e "s|%%ERROR_LOG_PATH%%|/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs/error.log|" \
+	sed -e "s|%%PREFIX%%|/home/archer/Documents/NginxBigFile/src/nginx-1.5.3|" \
+		-e "s|%%PID_PATH%%|/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs/nginx.pid|" \
+		-e "s|%%CONF_PATH%%|/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf|" \
+		-e "s|%%ERROR_LOG_PATH%%|/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs/error.log|" \
 		< man/nginx.8 > $@
 
 install:	objs/nginx 		
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9' || mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3' || mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3'
 
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/sbin' 		|| mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/sbin'
-	test ! -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/sbin/nginx' 		|| mv '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/sbin/nginx' 			'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/sbin/nginx.old'
-	cp objs/nginx '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/sbin/nginx'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin' 		|| mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin'
+	test ! -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin/nginx' 		|| mv '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin/nginx' 			'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin/nginx.old'
+	cp objs/nginx '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/sbin/nginx'
 
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf' 		|| mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf' 		|| mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
 
-	cp conf/koi-win '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/koi-utf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/win-utf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
+	cp conf/koi-win '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/koi-utf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/win-utf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
 
-	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/mime.types '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/mime.types.default'
+	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/mime.types '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/mime.types.default'
 
-	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/fastcgi_params 		'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/fastcgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/fastcgi_params 		'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/fastcgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/fastcgi.conf.default'
+	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/fastcgi.conf.default'
 
-	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/uwsgi_params 		'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/uwsgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/uwsgi_params 		'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/uwsgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf'
-	cp conf/scgi_params 		'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/scgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/scgi_params 		'$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/scgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/nginx.conf'
-	cp conf/nginx.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/conf/nginx.conf.default'
+	test -f '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf'
+	cp conf/nginx.conf '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf.default'
 
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs' 		|| mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs' 		|| mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs'
 
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs'
 
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/html' 		|| cp -R html '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/html' 		|| cp -R html '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3'
 
-	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs'
+	test -d '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/logs'

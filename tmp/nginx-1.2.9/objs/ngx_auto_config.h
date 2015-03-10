@@ -1,4 +1,4 @@
-#define NGX_CONFIGURE " --prefix=/home/archer/Documents/NginxBigFile/src/nginx-1.2.9 --add-module=/home/archer/Documents/NginxBigFile/tmp/nginx-upload-module-2.2m"
+#define NGX_CONFIGURE " --prefix=/home/archer/Documents/NginxBigFile/src/nginx-1.5.3 --add-module=/home/archer/Documents/NginxBigFile/tmp/nginx-upload-module-2.2m"
 
 #ifndef NGX_COMPILER
 #define NGX_COMPILER  "gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) "
@@ -329,7 +329,7 @@
 
 
 #ifndef NGX_PREFIX
-#define NGX_PREFIX  "/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/"
+#define NGX_PREFIX  "/home/archer/Documents/NginxBigFile/src/nginx-1.5.3/"
 #endif
 
 
