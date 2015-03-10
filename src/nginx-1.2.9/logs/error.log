@@ -662,3 +662,29 @@
 2015/03/10 12:46:19 [notice] 9241#0: worker process 9242 exited with code 0
 2015/03/10 12:46:19 [alert] 9241#0: unlink() "/home/archer/Documents/NginxBigFile/src/nginx-1.2.9/logs/nginx.pid" failed (2: No such file or directory)
 2015/03/10 12:46:19 [notice] 9241#0: exit
+2015/03/10 12:59:17 [notice] 14026#0: using the "epoll" event method
+2015/03/10 12:59:17 [notice] 14026#0: nginx/1.2.9
+2015/03/10 12:59:17 [notice] 14026#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2015/03/10 12:59:17 [notice] 14026#0: OS: Linux 3.13.0-44-generic
+2015/03/10 12:59:17 [notice] 14026#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/10 12:59:17 [notice] 14027#0: start worker processes
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14028
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14029
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14030
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14031
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14032
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14033
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14034
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14035
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14036
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14037
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14038
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14039
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14040
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14041
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14042
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14043
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14044
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14045
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14046
+2015/03/10 12:59:17 [notice] 14027#0: start worker process 14047
