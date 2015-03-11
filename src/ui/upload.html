@@ -59,7 +59,7 @@
 
   </head>
   <body>
-    <input id="fileupload" type="file" name="files[]" data-url="http://some-external-site.com/upload" multiple>
+    <input id="fileupload" type="file" name="files[]" data-url="http://csrgxtu.com:1999/CORS/upload" multiple>
 
     <button id="start_upload" type="button">Start uploads</button> &nbsp;
     <button id="stop_uploads" type="button">Cancel all uploads</button>
@@ -67,5 +67,14 @@
 
     <table id="files">
     </table>
+
+    <script>
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'http://csrgxtu.com:1999/CORS/upload');
+      var formData = new FormData();
+      formData.append('file', '/home/archer/.bashrc');
+      xhr.send(formData);
+      console.log('DEBUG: send file');
+    </script>
   </body>
 </html>

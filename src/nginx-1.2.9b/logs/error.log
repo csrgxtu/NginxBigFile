@@ -1,0 +1,446 @@
+2015/03/10 23:41:53 [notice] 10970#0: using the "epoll" event method
+2015/03/10 23:41:53 [notice] 10970#0: nginx/1.2.9
+2015/03/10 23:41:53 [notice] 10970#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/10 23:41:53 [notice] 10970#0: OS: Linux 3.16.0-23-generic
+2015/03/10 23:41:53 [notice] 10970#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/10 23:41:53 [notice] 10971#0: start worker processes
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10972
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10973
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10974
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10975
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10976
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10977
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10978
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10979
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10980
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10981
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10982
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10983
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10984
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10985
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10986
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10987
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10988
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10989
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10990
+2015/03/10 23:41:53 [notice] 10971#0: start worker process 10991
+2015/03/10 23:42:23 [error] 10978#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:8080/upload", host: "localhost:8888"
+2015/03/10 23:46:14 [notice] 10973#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10972#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10971#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10973#0: exiting
+2015/03/10 23:46:14 [notice] 10972#0: exiting
+2015/03/10 23:46:14 [notice] 10972#0: exit
+2015/03/10 23:46:14 [notice] 10973#0: exit
+2015/03/10 23:46:14 [notice] 10975#0: exiting
+2015/03/10 23:46:14 [notice] 10975#0: exit
+2015/03/10 23:46:14 [notice] 10981#0: exiting
+2015/03/10 23:46:14 [notice] 10981#0: exit
+2015/03/10 23:46:14 [notice] 10974#0: exiting
+2015/03/10 23:46:14 [notice] 10976#0: exiting
+2015/03/10 23:46:14 [notice] 10974#0: exit
+2015/03/10 23:46:14 [notice] 10976#0: exit
+2015/03/10 23:46:14 [notice] 10977#0: exiting
+2015/03/10 23:46:14 [notice] 10983#0: exiting
+2015/03/10 23:46:14 [notice] 10977#0: exit
+2015/03/10 23:46:14 [notice] 10983#0: exit
+2015/03/10 23:46:14 [notice] 10982#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10982#0: exiting
+2015/03/10 23:46:14 [notice] 10982#0: exit
+2015/03/10 23:46:14 [notice] 10978#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10984#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10978#0: exiting
+2015/03/10 23:46:14 [notice] 10984#0: exiting
+2015/03/10 23:46:14 [notice] 10978#0: exit
+2015/03/10 23:46:14 [notice] 10984#0: exit
+2015/03/10 23:46:14 [notice] 10986#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10986#0: exiting
+2015/03/10 23:46:14 [notice] 10986#0: exit
+2015/03/10 23:46:14 [notice] 10985#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10985#0: exiting
+2015/03/10 23:46:14 [notice] 10979#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10979#0: exiting
+2015/03/10 23:46:14 [notice] 10985#0: exit
+2015/03/10 23:46:14 [notice] 10979#0: exit
+2015/03/10 23:46:14 [notice] 10987#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10980#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10987#0: exiting
+2015/03/10 23:46:14 [notice] 10980#0: exiting
+2015/03/10 23:46:14 [notice] 10987#0: exit
+2015/03/10 23:46:14 [notice] 10980#0: exit
+2015/03/10 23:46:14 [notice] 10989#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10988#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10989#0: exiting
+2015/03/10 23:46:14 [notice] 10988#0: exiting
+2015/03/10 23:46:14 [notice] 10989#0: exit
+2015/03/10 23:46:14 [notice] 10988#0: exit
+2015/03/10 23:46:14 [notice] 10990#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10990#0: exiting
+2015/03/10 23:46:14 [notice] 10990#0: exit
+2015/03/10 23:46:14 [notice] 10991#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:46:14 [notice] 10991#0: exiting
+2015/03/10 23:46:14 [notice] 10991#0: exit
+2015/03/10 23:46:14 [notice] 10971#0: signal 17 (SIGCHLD) received
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10972 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10973 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10974 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10975 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10976 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10977 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10978 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10979 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10980 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10981 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10982 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10983 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10984 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10985 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10986 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: signal 17 (SIGCHLD) received
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10987 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10989 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: signal 17 (SIGCHLD) received
+2015/03/10 23:46:14 [notice] 10971#0: signal 17 (SIGCHLD) received
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10988 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10990 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: worker process 10991 exited with code 0
+2015/03/10 23:46:14 [notice] 10971#0: exit
+2015/03/10 23:50:30 [notice] 11032#0: using the "epoll" event method
+2015/03/10 23:50:30 [notice] 11032#0: nginx/1.2.9
+2015/03/10 23:50:30 [notice] 11032#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/10 23:50:30 [notice] 11032#0: OS: Linux 3.16.0-23-generic
+2015/03/10 23:50:30 [notice] 11032#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/10 23:50:30 [notice] 11033#0: start worker processes
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11034
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11035
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11036
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11037
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11038
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11039
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11040
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11041
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11042
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11043
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11044
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11045
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11046
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11047
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11048
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11049
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11050
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11051
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11052
+2015/03/10 23:50:30 [notice] 11033#0: start worker process 11053
+2015/03/10 23:51:01 [error] 11036#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:8080/upload", host: "localhost:8888"
+2015/03/10 23:55:21 [notice] 11034#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11033#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11034#0: exiting
+2015/03/10 23:55:21 [notice] 11034#0: exit
+2015/03/10 23:55:21 [notice] 11040#0: exiting
+2015/03/10 23:55:21 [notice] 11043#0: exiting
+2015/03/10 23:55:21 [notice] 11040#0: exit
+2015/03/10 23:55:21 [notice] 11043#0: exit
+2015/03/10 23:55:21 [notice] 11035#0: exiting
+2015/03/10 23:55:21 [notice] 11035#0: exit
+2015/03/10 23:55:21 [notice] 11047#0: exiting
+2015/03/10 23:55:21 [notice] 11047#0: exit
+2015/03/10 23:55:21 [notice] 11047#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11046#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11046#0: exiting
+2015/03/10 23:55:21 [notice] 11046#0: exit
+2015/03/10 23:55:21 [notice] 11036#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11036#0: exiting
+2015/03/10 23:55:21 [notice] 11036#0: exit
+2015/03/10 23:55:21 [notice] 11037#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11037#0: exiting
+2015/03/10 23:55:21 [notice] 11037#0: exit
+2015/03/10 23:55:21 [notice] 11038#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11038#0: exiting
+2015/03/10 23:55:21 [notice] 11038#0: exit
+2015/03/10 23:55:21 [notice] 11039#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11039#0: exiting
+2015/03/10 23:55:21 [notice] 11039#0: exit
+2015/03/10 23:55:21 [notice] 11041#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11041#0: exiting
+2015/03/10 23:55:21 [notice] 11041#0: exit
+2015/03/10 23:55:21 [notice] 11042#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11042#0: exiting
+2015/03/10 23:55:21 [notice] 11042#0: exit
+2015/03/10 23:55:21 [notice] 11044#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11044#0: exiting
+2015/03/10 23:55:21 [notice] 11044#0: exit
+2015/03/10 23:55:21 [notice] 11045#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11045#0: exiting
+2015/03/10 23:55:21 [notice] 11045#0: exit
+2015/03/10 23:55:21 [notice] 11048#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11048#0: exiting
+2015/03/10 23:55:21 [notice] 11048#0: exit
+2015/03/10 23:55:21 [notice] 11049#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11049#0: exiting
+2015/03/10 23:55:21 [notice] 11049#0: exit
+2015/03/10 23:55:21 [notice] 11050#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11050#0: exiting
+2015/03/10 23:55:21 [notice] 11050#0: exit
+2015/03/10 23:55:21 [notice] 11051#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11051#0: exiting
+2015/03/10 23:55:21 [notice] 11051#0: exit
+2015/03/10 23:55:21 [notice] 11052#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11052#0: exiting
+2015/03/10 23:55:21 [notice] 11052#0: exit
+2015/03/10 23:55:21 [notice] 11053#0: signal 15 (SIGTERM) received, exiting
+2015/03/10 23:55:21 [notice] 11053#0: exiting
+2015/03/10 23:55:21 [notice] 11053#0: exit
+2015/03/10 23:55:21 [notice] 11033#0: signal 17 (SIGCHLD) received
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11034 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11035 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11037 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11038 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11039 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11040 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11041 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11042 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11043 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11044 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11045 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11046 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11048 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11049 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11050 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11051 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11052 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11053 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: signal 17 (SIGCHLD) received
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11036 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: worker process 11047 exited with code 0
+2015/03/10 23:55:21 [notice] 11033#0: exit
+2015/03/10 23:55:27 [notice] 11068#0: using the "epoll" event method
+2015/03/10 23:55:27 [notice] 11068#0: nginx/1.2.9
+2015/03/10 23:55:27 [notice] 11068#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/10 23:55:27 [notice] 11068#0: OS: Linux 3.16.0-23-generic
+2015/03/10 23:55:27 [notice] 11068#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/10 23:55:27 [notice] 11069#0: start worker processes
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11070
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11071
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11072
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11073
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11074
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11075
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11076
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11077
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11078
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11079
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11080
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11081
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11082
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11083
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11084
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11085
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11086
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11087
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11088
+2015/03/10 23:55:27 [notice] 11069#0: start worker process 11089
+2015/03/10 23:55:41 [error] 11077#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:8080/upload", host: "localhost:8888"
+2015/03/11 00:01:36 [notice] 11070#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11069#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11072#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11076#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11070#0: exiting
+2015/03/11 00:01:36 [notice] 11072#0: exiting
+2015/03/11 00:01:36 [notice] 11076#0: exiting
+2015/03/11 00:01:36 [notice] 11070#0: exit
+2015/03/11 00:01:36 [notice] 11072#0: exit
+2015/03/11 00:01:36 [notice] 11076#0: exit
+2015/03/11 00:01:36 [notice] 11077#0: exiting
+2015/03/11 00:01:36 [notice] 11077#0: exit
+2015/03/11 00:01:36 [notice] 11074#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11080#0: exiting
+2015/03/11 00:01:36 [notice] 11074#0: exiting
+2015/03/11 00:01:36 [notice] 11073#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11080#0: exit
+2015/03/11 00:01:36 [notice] 11074#0: exit
+2015/03/11 00:01:36 [notice] 11073#0: exiting
+2015/03/11 00:01:36 [notice] 11084#0: exiting
+2015/03/11 00:01:36 [notice] 11073#0: exit
+2015/03/11 00:01:36 [notice] 11084#0: exit
+2015/03/11 00:01:36 [notice] 11079#0: exiting
+2015/03/11 00:01:36 [notice] 11079#0: exit
+2015/03/11 00:01:36 [notice] 11082#0: exiting
+2015/03/11 00:01:36 [notice] 11087#0: exiting
+2015/03/11 00:01:36 [notice] 11083#0: exiting
+2015/03/11 00:01:36 [notice] 11082#0: exit
+2015/03/11 00:01:36 [notice] 11087#0: exit
+2015/03/11 00:01:36 [notice] 11083#0: exit
+2015/03/11 00:01:36 [notice] 11086#0: exiting
+2015/03/11 00:01:36 [notice] 11086#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11086#0: exit
+2015/03/11 00:01:36 [notice] 11085#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11085#0: exiting
+2015/03/11 00:01:36 [notice] 11071#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11085#0: exit
+2015/03/11 00:01:36 [notice] 11071#0: exiting
+2015/03/11 00:01:36 [notice] 11071#0: exit
+2015/03/11 00:01:36 [notice] 11089#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11089#0: exiting
+2015/03/11 00:01:36 [notice] 11089#0: exit
+2015/03/11 00:01:36 [notice] 11088#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11081#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11088#0: exiting
+2015/03/11 00:01:36 [notice] 11081#0: exiting
+2015/03/11 00:01:36 [notice] 11088#0: exit
+2015/03/11 00:01:36 [notice] 11081#0: exit
+2015/03/11 00:01:36 [notice] 11069#0: signal 17 (SIGCHLD) received
+2015/03/11 00:01:36 [notice] 11078#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11078#0: exiting
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11071 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11072 exited with code 0
+2015/03/11 00:01:36 [notice] 11078#0: exit
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11081 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11085 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11086 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11088 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11089 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: signal 29 (SIGIO) received
+2015/03/11 00:01:36 [notice] 11069#0: signal 17 (SIGCHLD) received
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11077 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: signal 29 (SIGIO) received
+2015/03/11 00:01:36 [notice] 11069#0: signal 17 (SIGCHLD) received
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11078 exited with code 0
+2015/03/11 00:01:36 [notice] 11075#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 00:01:36 [notice] 11069#0: signal 29 (SIGIO) received
+2015/03/11 00:01:36 [notice] 11075#0: exiting
+2015/03/11 00:01:36 [notice] 11075#0: exit
+2015/03/11 00:01:36 [notice] 11069#0: signal 17 (SIGCHLD) received
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11073 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11070 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11074 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11079 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11076 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11080 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11082 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11083 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11084 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11087 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: signal 29 (SIGIO) received
+2015/03/11 00:01:36 [notice] 11069#0: signal 17 (SIGCHLD) received
+2015/03/11 00:01:36 [notice] 11069#0: worker process 11075 exited with code 0
+2015/03/11 00:01:36 [notice] 11069#0: exit
+2015/03/11 00:01:44 [notice] 11109#0: using the "epoll" event method
+2015/03/11 00:01:44 [notice] 11109#0: nginx/1.2.9
+2015/03/11 00:01:44 [notice] 11109#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/11 00:01:44 [notice] 11109#0: OS: Linux 3.16.0-23-generic
+2015/03/11 00:01:44 [notice] 11109#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/11 00:01:44 [notice] 11110#0: start worker processes
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11111
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11112
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11113
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11114
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11115
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11116
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11117
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11118
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11119
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11120
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11121
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11122
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11123
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11124
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11125
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11126
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11127
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11128
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11129
+2015/03/11 00:01:44 [notice] 11110#0: start worker process 11130
+2015/03/11 00:01:56 [error] 11112#0: *1 open() "/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/html/upload" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", host: "localhost:8888"
+2015/03/11 00:02:17 [error] 11112#0: *1 open() "/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/html/upload" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", host: "localhost:8888"
+2015/03/11 02:15:51 [notice] 11112#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11110#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11111#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11117#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11112#0: exiting
+2015/03/11 02:15:51 [notice] 11111#0: exiting
+2015/03/11 02:15:51 [notice] 11117#0: exiting
+2015/03/11 02:15:51 [notice] 11112#0: exit
+2015/03/11 02:15:51 [notice] 11117#0: exit
+2015/03/11 02:15:51 [notice] 11111#0: exit
+2015/03/11 02:15:51 [notice] 11115#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11115#0: exiting
+2015/03/11 02:15:51 [notice] 11115#0: exit
+2015/03/11 02:15:51 [notice] 11116#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11116#0: exiting
+2015/03/11 02:15:51 [notice] 11113#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11116#0: exit
+2015/03/11 02:15:51 [notice] 11113#0: exiting
+2015/03/11 02:15:51 [notice] 11113#0: exit
+2015/03/11 02:15:51 [notice] 11114#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11130#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11114#0: exiting
+2015/03/11 02:15:51 [notice] 11119#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11130#0: exiting
+2015/03/11 02:15:51 [notice] 11119#0: exiting
+2015/03/11 02:15:51 [notice] 11114#0: exit
+2015/03/11 02:15:51 [notice] 11130#0: exit
+2015/03/11 02:15:51 [notice] 11119#0: exit
+2015/03/11 02:15:51 [notice] 11123#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11123#0: exiting
+2015/03/11 02:15:51 [notice] 11123#0: exit
+2015/03/11 02:15:51 [notice] 11120#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11127#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11120#0: exiting
+2015/03/11 02:15:51 [notice] 11127#0: exiting
+2015/03/11 02:15:51 [notice] 11110#0: signal 17 (SIGCHLD) received
+2015/03/11 02:15:51 [notice] 11120#0: exit
+2015/03/11 02:15:51 [notice] 11127#0: exit
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11111 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11112 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11113 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11114 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11116 exited with code 0
+2015/03/11 02:15:51 [notice] 11124#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11124#0: exiting
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11117 exited with code 0
+2015/03/11 02:15:51 [notice] 11124#0: exit
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11119 exited with code 0
+2015/03/11 02:15:51 [notice] 11121#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11128#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11121#0: exiting
+2015/03/11 02:15:51 [notice] 11128#0: exiting
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11120 exited with code 0
+2015/03/11 02:15:51 [notice] 11128#0: exit
+2015/03/11 02:15:51 [notice] 11121#0: exit
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11123 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11127 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11130 exited with code 0
+2015/03/11 02:15:51 [notice] 11125#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11125#0: exiting
+2015/03/11 02:15:51 [notice] 11110#0: signal 29 (SIGIO) received
+2015/03/11 02:15:51 [notice] 11125#0: exit
+2015/03/11 02:15:51 [notice] 11110#0: signal 17 (SIGCHLD) received
+2015/03/11 02:15:51 [notice] 11122#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11129#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11124 exited with code 0
+2015/03/11 02:15:51 [notice] 11122#0: exiting
+2015/03/11 02:15:51 [notice] 11129#0: exiting
+2015/03/11 02:15:51 [notice] 11122#0: exit
+2015/03/11 02:15:51 [notice] 11129#0: exit
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11121 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11128 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: signal 29 (SIGIO) received
+2015/03/11 02:15:51 [notice] 11110#0: signal 17 (SIGCHLD) received
+2015/03/11 02:15:51 [notice] 11126#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11126#0: exiting
+2015/03/11 02:15:51 [notice] 11126#0: exit
+2015/03/11 02:15:51 [notice] 11118#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 02:15:51 [notice] 11118#0: exiting
+2015/03/11 02:15:51 [notice] 11118#0: exit
+2015/03/11 02:15:51 [notice] 11110#0: signal 17 (SIGCHLD) received
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11122 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11125 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11126 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11129 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: signal 29 (SIGIO) received
+2015/03/11 02:15:51 [notice] 11110#0: signal 17 (SIGCHLD) received
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11118 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: signal 29 (SIGIO) received
+2015/03/11 02:15:51 [notice] 11110#0: signal 17 (SIGCHLD) received
+2015/03/11 02:15:51 [notice] 11110#0: worker process 11115 exited with code 0
+2015/03/11 02:15:51 [notice] 11110#0: exit

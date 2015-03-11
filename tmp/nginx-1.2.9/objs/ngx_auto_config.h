@@ -1,7 +1,7 @@
-#define NGX_CONFIGURE " --prefix=/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9a --add-module=/home/archer/Downloads/NginxBigFile/tmp/nginx-upload-module-2.2m"
+#define NGX_CONFIGURE " --add-module=/home/archer/Downloads/NginxBigFile/tmp/nginx-upload-module-2.2m --prefix=/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b"
 
 #ifndef NGX_COMPILER
-#define NGX_COMPILER  "gcc 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) "
+#define NGX_COMPILER  "gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) "
 #endif
 
 
@@ -61,7 +61,7 @@
 
 
 #ifndef NGX_CPU_CACHE_LINE
-#define NGX_CPU_CACHE_LINE  32
+#define NGX_CPU_CACHE_LINE  64
 #endif
 
 
@@ -124,7 +124,7 @@
 
 
 #ifndef NGX_PTR_SIZE
-#define NGX_PTR_SIZE  4
+#define NGX_PTR_SIZE  8
 #endif
 
 
@@ -139,12 +139,12 @@
 
 
 #ifndef NGX_MAX_SIZE_T_VALUE
-#define NGX_MAX_SIZE_T_VALUE  2147483647L
+#define NGX_MAX_SIZE_T_VALUE  9223372036854775807LL
 #endif
 
 
 #ifndef NGX_SIZE_T_LEN
-#define NGX_SIZE_T_LEN  (sizeof("-2147483648") - 1)
+#define NGX_SIZE_T_LEN  (sizeof("-9223372036854775808") - 1)
 #endif
 
 
@@ -159,12 +159,12 @@
 
 
 #ifndef NGX_TIME_T_SIZE
-#define NGX_TIME_T_SIZE  4
+#define NGX_TIME_T_SIZE  8
 #endif
 
 
 #ifndef NGX_TIME_T_LEN
-#define NGX_TIME_T_LEN  (sizeof("-2147483648") - 1)
+#define NGX_TIME_T_LEN  (sizeof("-9223372036854775808") - 1)
 #endif
 
 
@@ -293,6 +293,11 @@
 #endif
 
 
+#ifndef NGX_HAVE_PCRE_JIT
+#define NGX_HAVE_PCRE_JIT  1
+#endif
+
+
 #ifndef NGX_OPENSSL_MD5
 #define NGX_OPENSSL_MD5  1
 #endif
@@ -324,7 +329,7 @@
 
 
 #ifndef NGX_PREFIX
-#define NGX_PREFIX  "/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9a/"
+#define NGX_PREFIX  "/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/"
 #endif
 
 

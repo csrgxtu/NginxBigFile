@@ -99,7 +99,7 @@ $(function() {
    *
    */
   $("#fileupload").fileupload({
-    maxChunkSize: 1024 * 256;
+    maxChunkSize: 1024 * 256,
     maxRetries: 15,
     retryTimeout: 1000,
     multipart: false,
