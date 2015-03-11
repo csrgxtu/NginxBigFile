@@ -97,6 +97,9 @@ HTTP_INCS = -I src/http \
 	-I src/http/modules
 
 
+ADDON_DEPS = $(CORE_DEPS)  $(HTTP_DEPS)
+
+
 objs/nginx:	objs/src/core/nginx.o \
 	objs/src/core/ngx_log.o \
 	objs/src/core/ngx_palloc.o \
@@ -204,6 +207,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_upstream_ip_hash_module.o \
 	objs/src/http/modules/ngx_http_upstream_least_conn_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
+	objs/addon/nginx-upload-module-2.2m/ngx_http_upload_module.o \
 	objs/ngx_modules.o
 
 	$(LINK) -o objs/nginx \
@@ -314,6 +318,7 @@ objs/nginx:	objs/src/core/nginx.o \
 	objs/src/http/modules/ngx_http_upstream_ip_hash_module.o \
 	objs/src/http/modules/ngx_http_upstream_least_conn_module.o \
 	objs/src/http/modules/ngx_http_upstream_keepalive_module.o \
+	objs/addon/nginx-upload-module-2.2m/ngx_http_upload_module.o \
 	objs/ngx_modules.o \
 	-lpthread -lcrypt -lpcre -lcrypto -lcrypto -lz
 	
@@ -1075,50 +1080,57 @@ objs/src/http/modules/ngx_http_upstream_keepalive_module.o:	$(CORE_DEPS) $(HTTP_
 		src/http/modules/ngx_http_upstream_keepalive_module.c
 
 
+objs/addon/nginx-upload-module-2.2m/ngx_http_upload_module.o:	$(ADDON_DEPS) \
+	/home/archer/Downloads/NginxBigFile/tmp/nginx-upload-module-2.2m/ngx_http_upload_module.c
+	$(CC) -c $(CFLAGS)  $(ALL_INCS) \
+		-o objs/addon/nginx-upload-module-2.2m/ngx_http_upload_module.o \
+		/home/archer/Downloads/NginxBigFile/tmp/nginx-upload-module-2.2m/ngx_http_upload_module.c
+
+
 manpage:	objs/nginx.8
 
 objs/nginx.8:	man/nginx.8 objs/ngx_auto_config.h
-	sed -e "s|%%PREFIX%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3|" \
-		-e "s|%%PID_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs/nginx.pid|" \
-		-e "s|%%CONF_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf|" \
-		-e "s|%%ERROR_LOG_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs/error.log|" \
+	sed -e "s|%%PREFIX%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a|" \
+		-e "s|%%PID_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs/nginx.pid|" \
+		-e "s|%%CONF_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf|" \
+		-e "s|%%ERROR_LOG_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs/error.log|" \
 		< man/nginx.8 > $@
 
 install:	objs/nginx 		
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3' || mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a' || mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/sbin' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/sbin'
-	test ! -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/sbin/nginx' 		|| mv '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/sbin/nginx' 			'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/sbin/nginx.old'
-	cp objs/nginx '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/sbin/nginx'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/sbin' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/sbin'
+	test ! -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/sbin/nginx' 		|| mv '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/sbin/nginx' 			'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/sbin/nginx.old'
+	cp objs/nginx '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/sbin/nginx'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
 
-	cp conf/koi-win '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/koi-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/win-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
+	cp conf/koi-win '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/koi-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/win-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/mime.types.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/mime.types.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/fastcgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/fastcgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/fastcgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/fastcgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/fastcgi.conf.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/fastcgi.conf.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/uwsgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/uwsgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/uwsgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/uwsgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf'
-	cp conf/scgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/scgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf'
+	cp conf/scgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/scgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf'
-	cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/conf/nginx.conf.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf'
+	cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf.default'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/html' 		|| cp -R html '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html' 		|| cp -R html '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3/logs'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/logs'

@@ -1,0 +1,346 @@
+2015/03/11 03:32:50 [notice] 18637#0: using the "epoll" event method
+2015/03/11 03:32:50 [notice] 18637#0: nginx/1.5.3
+2015/03/11 03:32:50 [notice] 18637#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/11 03:32:50 [notice] 18637#0: OS: Linux 3.16.0-23-generic
+2015/03/11 03:32:50 [notice] 18637#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/11 03:32:50 [notice] 18638#0: start worker processes
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18639
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18640
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18641
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18642
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18643
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18644
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18645
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18646
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18647
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18648
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18649
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18650
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18651
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18652
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18653
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18654
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18655
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18656
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18657
+2015/03/11 03:32:50 [notice] 18638#0: start worker process 18658
+2015/03/11 03:36:46 [error] 18639#0: *1 open() "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8881"
+2015/03/11 03:40:50 [notice] 18639#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18640#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18641#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18638#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18639#0: exiting
+2015/03/11 03:40:50 [notice] 18640#0: exiting
+2015/03/11 03:40:50 [notice] 18641#0: exiting
+2015/03/11 03:40:50 [notice] 18639#0: exit
+2015/03/11 03:40:50 [notice] 18641#0: exit
+2015/03/11 03:40:50 [notice] 18640#0: exit
+2015/03/11 03:40:50 [notice] 18643#0: exiting
+2015/03/11 03:40:50 [notice] 18643#0: exit
+2015/03/11 03:40:50 [notice] 18646#0: exiting
+2015/03/11 03:40:50 [notice] 18654#0: exiting
+2015/03/11 03:40:50 [notice] 18645#0: exiting
+2015/03/11 03:40:50 [notice] 18653#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18645#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18658#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18653#0: exiting
+2015/03/11 03:40:50 [notice] 18658#0: exiting
+2015/03/11 03:40:50 [notice] 18645#0: exit
+2015/03/11 03:40:50 [notice] 18653#0: exit
+2015/03/11 03:40:50 [notice] 18658#0: exit
+2015/03/11 03:40:50 [notice] 18646#0: exit
+2015/03/11 03:40:50 [notice] 18644#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18654#0: exit
+2015/03/11 03:40:50 [notice] 18644#0: exiting
+2015/03/11 03:40:50 [notice] 18654#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18644#0: exit
+2015/03/11 03:40:49 [notice] 18642#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18642#0: exiting
+2015/03/11 03:40:50 [notice] 18642#0: exit
+2015/03/11 03:40:50 [notice] 18648#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18648#0: exiting
+2015/03/11 03:40:50 [notice] 18650#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18650#0: exiting
+2015/03/11 03:40:50 [notice] 18648#0: exit
+2015/03/11 03:40:50 [notice] 18657#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18650#0: exit
+2015/03/11 03:40:50 [notice] 18657#0: exiting
+2015/03/11 03:40:50 [notice] 18657#0: exit
+2015/03/11 03:40:50 [notice] 18649#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18649#0: exiting
+2015/03/11 03:40:50 [notice] 18649#0: exit
+2015/03/11 03:40:50 [notice] 18655#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18638#0: signal 17 (SIGCHLD) received
+2015/03/11 03:40:50 [notice] 18655#0: exiting
+2015/03/11 03:40:50 [notice] 18656#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18639 exited with code 0
+2015/03/11 03:40:50 [notice] 18655#0: exit
+2015/03/11 03:40:50 [notice] 18656#0: exiting
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18640 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18641 exited with code 0
+2015/03/11 03:40:50 [notice] 18656#0: exit
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18642 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18643 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18644 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18645 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18648 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18650 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18653 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18654 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18657 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18658 exited with code 0
+2015/03/11 03:40:50 [notice] 18651#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18651#0: exiting
+2015/03/11 03:40:50 [notice] 18638#0: signal 29 (SIGIO) received
+2015/03/11 03:40:50 [notice] 18638#0: signal 17 (SIGCHLD) received
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18649 exited with code 0
+2015/03/11 03:40:50 [notice] 18647#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18652#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18638#0: signal 29 (SIGIO) received
+2015/03/11 03:40:50 [notice] 18638#0: signal 17 (SIGCHLD) received
+2015/03/11 03:40:50 [notice] 18647#0: exiting
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18655 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18656 exited with code 0
+2015/03/11 03:40:50 [notice] 18652#0: exiting
+2015/03/11 03:40:50 [notice] 18647#0: exit
+2015/03/11 03:40:50 [notice] 18652#0: exit
+2015/03/11 03:40:50 [notice] 18638#0: signal 29 (SIGIO) received
+2015/03/11 03:40:50 [notice] 18646#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 03:40:50 [notice] 18651#0: exit
+2015/03/11 03:40:50 [notice] 18638#0: signal 17 (SIGCHLD) received
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18646 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18647 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18652 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: signal 29 (SIGIO) received
+2015/03/11 03:40:50 [notice] 18638#0: signal 17 (SIGCHLD) received
+2015/03/11 03:40:50 [notice] 18638#0: worker process 18651 exited with code 0
+2015/03/11 03:40:50 [notice] 18638#0: exit
+2015/03/11 03:40:55 [notice] 18914#0: using the "epoll" event method
+2015/03/11 03:40:55 [notice] 18914#0: nginx/1.5.3
+2015/03/11 03:40:55 [notice] 18914#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/11 03:40:55 [notice] 18914#0: OS: Linux 3.16.0-23-generic
+2015/03/11 03:40:55 [notice] 18914#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/11 03:40:55 [notice] 18915#0: start worker processes
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18916
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18917
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18918
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18919
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18920
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18921
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18922
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18923
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18924
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18925
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18926
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18927
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18928
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18929
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18930
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18931
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18932
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18933
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18934
+2015/03/11 03:40:55 [notice] 18915#0: start worker process 18935
+2015/03/11 03:54:59 [error] 18916#0: *6 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "GET /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/index.html"
+2015/03/11 03:55:23 [error] 18916#0: *11 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "POST /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/index.html"
+2015/03/11 03:55:40 [error] 18916#0: *10 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "GET /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/index.html"
+2015/03/11 03:56:13 [error] 18916#0: *10 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "POST /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/index.html"
+2015/03/11 03:58:01 [error] 18916#0: *14 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "GET /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/index.html"
+2015/03/11 03:58:16 [error] 18916#0: *14 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "POST /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/index.html"
+2015/03/11 03:59:44 [error] 18916#0: *22 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "POST /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/basic.html"
+2015/03/11 04:00:22 [error] 18916#0: *22 directory index of "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/ui/server/php/" is forbidden, client: 127.0.0.1, server: , request: "POST /ui/server/php/ HTTP/1.1", host: "localhost:8881", referrer: "http://localhost:8881/ui/basic.html"
+2015/03/11 04:05:44 [error] 18916#0: *23 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: , request: "POST /upload HTTP/1.1", upstream: "http://127.0.0.1:8882/upload", host: "localhost:8881", referrer: "http://localhost:8881/ui/basica.html"
+2015/03/11 04:09:56 [error] 18916#0: *51 open() "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8881"
+2015/03/11 04:09:56 [error] 18916#0: *51 open() "/home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8881"
+2015/03/11 04:23:11 [notice] 18916#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18915#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18922#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18920#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18916#0: exiting
+2015/03/11 04:23:11 [notice] 18922#0: exiting
+2015/03/11 04:23:11 [notice] 18920#0: exiting
+2015/03/11 04:23:11 [notice] 18916#0: exit
+2015/03/11 04:23:11 [notice] 18920#0: exit
+2015/03/11 04:23:11 [notice] 18922#0: exit
+2015/03/11 04:23:11 [notice] 18917#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18917#0: exiting
+2015/03/11 04:23:11 [notice] 18917#0: exit
+2015/03/11 04:23:11 [notice] 18918#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18918#0: exiting
+2015/03/11 04:23:11 [notice] 18921#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18918#0: exit
+2015/03/11 04:23:11 [notice] 18921#0: exiting
+2015/03/11 04:23:11 [notice] 18921#0: exit
+2015/03/11 04:23:11 [notice] 18924#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18924#0: exiting
+2015/03/11 04:23:11 [notice] 18924#0: exit
+2015/03/11 04:23:11 [notice] 18919#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18919#0: exiting
+2015/03/11 04:23:11 [notice] 18919#0: exit
+2015/03/11 04:23:11 [notice] 18923#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18923#0: exiting
+2015/03/11 04:23:11 [notice] 18923#0: exit
+2015/03/11 04:23:11 [notice] 18926#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18926#0: exiting
+2015/03/11 04:23:11 [notice] 18926#0: exit
+2015/03/11 04:23:11 [notice] 18931#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18931#0: exiting
+2015/03/11 04:23:11 [notice] 18931#0: exit
+2015/03/11 04:23:11 [notice] 18925#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18925#0: exiting
+2015/03/11 04:23:11 [notice] 18925#0: exit
+2015/03/11 04:23:11 [notice] 18927#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18927#0: exiting
+2015/03/11 04:23:11 [notice] 18927#0: exit
+2015/03/11 04:23:11 [notice] 18934#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18934#0: exiting
+2015/03/11 04:23:11 [notice] 18934#0: exit
+2015/03/11 04:23:11 [notice] 18932#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18932#0: exiting
+2015/03/11 04:23:11 [notice] 18928#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18932#0: exit
+2015/03/11 04:23:11 [notice] 18928#0: exiting
+2015/03/11 04:23:11 [notice] 18930#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18928#0: exit
+2015/03/11 04:23:11 [notice] 18930#0: exiting
+2015/03/11 04:23:11 [notice] 18930#0: exit
+2015/03/11 04:23:11 [notice] 18935#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18935#0: exiting
+2015/03/11 04:23:11 [notice] 18935#0: exit
+2015/03/11 04:23:11 [notice] 18933#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18929#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 04:23:11 [notice] 18929#0: exiting
+2015/03/11 04:23:11 [notice] 18933#0: exiting
+2015/03/11 04:23:11 [notice] 18929#0: exit
+2015/03/11 04:23:11 [notice] 18933#0: exit
+2015/03/11 04:23:11 [notice] 18915#0: signal 17 (SIGCHLD) received
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18916 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18917 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18918 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18919 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18920 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18921 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18922 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18923 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18924 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18925 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18926 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18927 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18928 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18929 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18930 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18931 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18932 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18933 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18934 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: worker process 18935 exited with code 0
+2015/03/11 04:23:11 [notice] 18915#0: exit
+2015/03/11 05:29:30 [emerg] 23131#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in /home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf:46
+2015/03/11 05:30:00 [emerg] 23134#0: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in /home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf:46
+2015/03/11 05:31:07 [emerg] 23138#0: unknown directive "SS" in /home/archer/Downloads/NginxBigFile/src/nginx-1.5.3a/conf/nginx.conf:2
+2015/03/11 05:31:32 [notice] 23140#0: using the "epoll" event method
+2015/03/11 05:31:32 [notice] 23140#0: nginx/1.5.3
+2015/03/11 05:31:32 [notice] 23140#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/11 05:31:32 [notice] 23140#0: OS: Linux 3.16.0-23-generic
+2015/03/11 05:31:32 [notice] 23140#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/11 05:31:32 [notice] 23141#0: start worker processes
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23142
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23143
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23144
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23145
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23146
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23147
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23148
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23149
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23150
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23151
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23152
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23153
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23154
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23155
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23156
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23157
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23158
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23159
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23160
+2015/03/11 05:31:32 [notice] 23141#0: start worker process 23161
+2015/03/11 05:51:06 [notice] 23143#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23144#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23141#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23142#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23143#0: exiting
+2015/03/11 05:51:06 [notice] 23144#0: exiting
+2015/03/11 05:51:06 [notice] 23142#0: exiting
+2015/03/11 05:51:06 [notice] 23143#0: exit
+2015/03/11 05:51:06 [notice] 23144#0: exit
+2015/03/11 05:51:06 [notice] 23142#0: exit
+2015/03/11 05:51:06 [notice] 23145#0: exiting
+2015/03/11 05:51:06 [notice] 23145#0: exit
+2015/03/11 05:51:06 [notice] 23150#0: exiting
+2015/03/11 05:51:06 [notice] 23147#0: exiting
+2015/03/11 05:51:06 [notice] 23148#0: exiting
+2015/03/11 05:51:06 [notice] 23150#0: exit
+2015/03/11 05:51:06 [notice] 23147#0: exit
+2015/03/11 05:51:06 [notice] 23146#0: exiting
+2015/03/11 05:51:06 [notice] 23148#0: exit
+2015/03/11 05:51:06 [notice] 23146#0: exit
+2015/03/11 05:51:06 [notice] 23151#0: exiting
+2015/03/11 05:51:06 [notice] 23154#0: exiting
+2015/03/11 05:51:06 [notice] 23151#0: exit
+2015/03/11 05:51:06 [notice] 23154#0: exit
+2015/03/11 05:51:06 [notice] 23149#0: exiting
+2015/03/11 05:51:06 [notice] 23149#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23149#0: exit
+2015/03/11 05:51:06 [notice] 23153#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23153#0: exiting
+2015/03/11 05:51:06 [notice] 23155#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23153#0: exit
+2015/03/11 05:51:06 [notice] 23155#0: exiting
+2015/03/11 05:51:06 [notice] 23155#0: exit
+2015/03/11 05:51:06 [notice] 23152#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23152#0: exiting
+2015/03/11 05:51:06 [notice] 23152#0: exit
+2015/03/11 05:51:06 [notice] 23157#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23157#0: exiting
+2015/03/11 05:51:06 [notice] 23157#0: exit
+2015/03/11 05:51:06 [notice] 23159#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23159#0: exiting
+2015/03/11 05:51:06 [notice] 23159#0: exit
+2015/03/11 05:51:06 [notice] 23156#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23156#0: exiting
+2015/03/11 05:51:06 [notice] 23156#0: exit
+2015/03/11 05:51:06 [notice] 23161#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23161#0: exiting
+2015/03/11 05:51:06 [notice] 23161#0: exit
+2015/03/11 05:51:06 [notice] 23160#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23160#0: exiting
+2015/03/11 05:51:06 [notice] 23160#0: exit
+2015/03/11 05:51:06 [notice] 23158#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23158#0: exiting
+2015/03/11 05:51:06 [notice] 23158#0: exit
+2015/03/11 05:51:06 [notice] 23146#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23150#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 05:51:06 [notice] 23141#0: signal 17 (SIGCHLD) received
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23144 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: signal 29 (SIGIO) received
+2015/03/11 05:51:06 [notice] 23141#0: signal 17 (SIGCHLD) received
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23143 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23142 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23145 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23147 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23148 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23149 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23151 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23152 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23153 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23154 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23155 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23146 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23150 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23156 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23157 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23158 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23159 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23160 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: worker process 23161 exited with code 0
+2015/03/11 05:51:06 [notice] 23141#0: exit

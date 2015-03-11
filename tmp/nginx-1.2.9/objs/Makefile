@@ -1090,47 +1090,47 @@ objs/addon/nginx-upload-module-2.2m/ngx_http_upload_module.o:	$(ADDON_DEPS) \
 manpage:	objs/nginx.8
 
 objs/nginx.8:	man/nginx.8 objs/ngx_auto_config.h
-	sed -e "s|%%PREFIX%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b|" \
-		-e "s|%%PID_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs/nginx.pid|" \
-		-e "s|%%CONF_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/nginx.conf|" \
-		-e "s|%%ERROR_LOG_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs/error.log|" \
+	sed -e "s|%%PREFIX%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c|" \
+		-e "s|%%PID_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs/nginx.pid|" \
+		-e "s|%%CONF_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/nginx.conf|" \
+		-e "s|%%ERROR_LOG_PATH%%|/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs/error.log|" \
 		< man/nginx.8 > $@
 
 install:	objs/nginx 		
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b' || mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c' || mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/sbin' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/sbin'
-	test ! -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/sbin/nginx' 		|| mv '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/sbin/nginx' 			'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/sbin/nginx.old'
-	cp objs/nginx '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/sbin/nginx'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/sbin' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/sbin'
+	test ! -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/sbin/nginx' 		|| mv '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/sbin/nginx' 			'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/sbin/nginx.old'
+	cp objs/nginx '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/sbin/nginx'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
 
-	cp conf/koi-win '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/koi-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/win-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
+	cp conf/koi-win '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/koi-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/win-utf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/mime.types.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/mime.types' 		|| cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/mime.types '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/mime.types.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/fastcgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/fastcgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/fastcgi_params' 		|| cp conf/fastcgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/fastcgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/fastcgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/fastcgi.conf.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/fastcgi.conf' 		|| cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/fastcgi.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/fastcgi.conf.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/uwsgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/uwsgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/uwsgi_params' 		|| cp conf/uwsgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/uwsgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/uwsgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf'
-	cp conf/scgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/scgi_params.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/scgi_params' 		|| cp conf/scgi_params '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf'
+	cp conf/scgi_params 		'$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/scgi_params.default'
 
-	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/nginx.conf'
-	cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/conf/nginx.conf.default'
+	test -f '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/nginx.conf' 		|| cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/nginx.conf'
+	cp conf/nginx.conf '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/conf/nginx.conf.default'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs' 		|| mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/html' 		|| cp -R html '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/html' 		|| cp -R html '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c'
 
-	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9b/logs'
+	test -d '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs' || 		mkdir -p '$(DESTDIR)/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/logs'
