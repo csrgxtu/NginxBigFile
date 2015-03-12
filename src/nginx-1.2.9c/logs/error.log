@@ -377,3 +377,98 @@
 2015/03/11 05:51:11 [notice] 23412#0: start worker process 23430
 2015/03/11 05:51:11 [notice] 23412#0: start worker process 23431
 2015/03/11 05:51:11 [notice] 23412#0: start worker process 23432
+2015/03/11 09:18:29 [notice] 23413#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23413#0: exiting
+2015/03/11 09:18:29 [notice] 23413#0: exit
+2015/03/11 09:18:29 [notice] 23422#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23422#0: exiting
+2015/03/11 09:18:29 [notice] 23419#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23419#0: exiting
+2015/03/11 09:18:29 [notice] 23422#0: exit
+2015/03/11 09:18:29 [notice] 23419#0: exit
+2015/03/11 09:18:29 [notice] 23412#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23413 exited with code 0
+2015/03/11 09:18:29 [notice] 23425#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23412#0: signal 29 (SIGIO) received
+2015/03/11 09:18:29 [notice] 23425#0: exiting
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23419 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23422 exited with code 0
+2015/03/11 09:18:29 [notice] 23425#0: exit
+2015/03/11 09:18:29 [notice] 23412#0: signal 29 (SIGIO) received
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23425 exited with code 0
+2015/03/11 09:18:29 [notice] 23423#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23423#0: exiting
+2015/03/11 09:18:29 [notice] 23412#0: signal 29 (SIGIO) received
+2015/03/11 09:18:29 [notice] 23423#0: exit
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23423 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: signal 29 (SIGIO) received
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23415#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23415#0: exiting
+2015/03/11 09:18:29 [notice] 23415#0: exit
+2015/03/11 09:18:29 [notice] 23417#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23417#0: exiting
+2015/03/11 09:18:29 [notice] 23417#0: exit
+2015/03/11 09:18:29 [notice] 23424#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23424#0: exiting
+2015/03/11 09:18:29 [notice] 23424#0: exit
+2015/03/11 09:18:29 [notice] 23418#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23418#0: exiting
+2015/03/11 09:18:29 [notice] 23418#0: exit
+2015/03/11 09:18:29 [notice] 23430#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23430#0: exiting
+2015/03/11 09:18:29 [notice] 23430#0: exit
+2015/03/11 09:18:29 [notice] 23429#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23429#0: exiting
+2015/03/11 09:18:29 [notice] 23429#0: exit
+2015/03/11 09:18:29 [notice] 23428#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23428#0: exiting
+2015/03/11 09:18:29 [notice] 23428#0: exit
+2015/03/11 09:18:29 [notice] 23414#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23414#0: exiting
+2015/03/11 09:18:29 [notice] 23414#0: exit
+2015/03/11 09:18:29 [notice] 23432#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23432#0: exiting
+2015/03/11 09:18:29 [notice] 23432#0: exit
+2015/03/11 09:18:29 [notice] 23420#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23420#0: exiting
+2015/03/11 09:18:29 [notice] 23420#0: exit
+2015/03/11 09:18:29 [notice] 23426#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23426#0: exiting
+2015/03/11 09:18:29 [notice] 23426#0: exit
+2015/03/11 09:18:29 [notice] 23431#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23431#0: exiting
+2015/03/11 09:18:29 [notice] 23431#0: exit
+2015/03/11 09:18:29 [notice] 23427#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23427#0: exiting
+2015/03/11 09:18:29 [notice] 23427#0: exit
+2015/03/11 09:18:29 [notice] 23416#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23416#0: exiting
+2015/03/11 09:18:29 [notice] 23416#0: exit
+2015/03/11 09:18:29 [notice] 23421#0: signal 15 (SIGTERM) received, exiting
+2015/03/11 09:18:29 [notice] 23421#0: exiting
+2015/03/11 09:18:29 [notice] 23421#0: exit
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23414 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23415 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23416 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23417 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23418 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23420 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23424 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23426 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23427 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23428 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23429 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23430 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23431 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23432 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: signal 29 (SIGIO) received
+2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
+2015/03/11 09:18:29 [notice] 23412#0: worker process 23421 exited with code 0
+2015/03/11 09:18:29 [notice] 23412#0: exit
