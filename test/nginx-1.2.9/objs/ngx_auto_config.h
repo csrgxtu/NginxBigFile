@@ -1,7 +1,7 @@
-#define NGX_CONFIGURE " --prefix=/home/archer/Downloads/NginxBigFile/test/nginx --add-module=/home/archer/Downloads/NginxBigFile/test/nginx-upload-module-2.2m --add-module=/home/archer/Downloads/NginxBigFile/test/nginx-upload-progress-module --add-module=/home/archer/Downloads/NginxBigFile/test/lua-nginx-module"
+#define NGX_CONFIGURE " --prefix=/home/asr6/NginxBigFile/test/nginx --add-module=/home/asr6/NginxBigFile/test/lua-nginx-module --add-module=/home/asr6/NginxBigFile/test/nginx-upload-progress-module --add-module=/home/asr6/NginxBigFile/test/nginx-upload-module-2.2m"
 
 #ifndef NGX_COMPILER
-#define NGX_COMPILER  "gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) "
+#define NGX_COMPILER  "gcc 4.6.1 (Ubuntu/Linaro 4.6.1-9ubuntu3) "
 #endif
 
 
@@ -61,7 +61,7 @@
 
 
 #ifndef NGX_CPU_CACHE_LINE
-#define NGX_CPU_CACHE_LINE  64
+#define NGX_CPU_CACHE_LINE  32
 #endif
 
 
@@ -124,7 +124,7 @@
 
 
 #ifndef NGX_PTR_SIZE
-#define NGX_PTR_SIZE  8
+#define NGX_PTR_SIZE  4
 #endif
 
 
@@ -139,12 +139,12 @@
 
 
 #ifndef NGX_MAX_SIZE_T_VALUE
-#define NGX_MAX_SIZE_T_VALUE  9223372036854775807LL
+#define NGX_MAX_SIZE_T_VALUE  2147483647L
 #endif
 
 
 #ifndef NGX_SIZE_T_LEN
-#define NGX_SIZE_T_LEN  (sizeof("-9223372036854775808") - 1)
+#define NGX_SIZE_T_LEN  (sizeof("-2147483648") - 1)
 #endif
 
 
@@ -159,12 +159,12 @@
 
 
 #ifndef NGX_TIME_T_SIZE
-#define NGX_TIME_T_SIZE  8
+#define NGX_TIME_T_SIZE  4
 #endif
 
 
 #ifndef NGX_TIME_T_LEN
-#define NGX_TIME_T_LEN  (sizeof("-9223372036854775808") - 1)
+#define NGX_TIME_T_LEN  (sizeof("-2147483648") - 1)
 #endif
 
 
@@ -285,5 +285,130 @@
 
 #ifndef NGX_HTTP_X_FORWARDED_FOR
 #define NGX_HTTP_X_FORWARDED_FOR  1
+#endif
+
+
+#ifndef NGX_HTTP_LUA_HAVE_SO_PASSCRED
+#define NGX_HTTP_LUA_HAVE_SO_PASSCRED  1
+#endif
+
+
+#ifndef NGX_PCRE
+#define NGX_PCRE  1
+#endif
+
+
+#ifndef NGX_OPENSSL_MD5
+#define NGX_OPENSSL_MD5  1
+#endif
+
+
+#ifndef NGX_HAVE_OPENSSL_MD5_H
+#define NGX_HAVE_OPENSSL_MD5_H  1
+#endif
+
+
+#ifndef NGX_HAVE_MD5
+#define NGX_HAVE_MD5  1
+#endif
+
+
+#ifndef NGX_HAVE_SHA1
+#define NGX_HAVE_SHA1  1
+#endif
+
+
+#ifndef NGX_HAVE_OPENSSL_SHA1_H
+#define NGX_HAVE_OPENSSL_SHA1_H  1
+#endif
+
+
+#ifndef NGX_ZLIB
+#define NGX_ZLIB  1
+#endif
+
+
+#ifndef NGX_PREFIX
+#define NGX_PREFIX  "/home/asr6/NginxBigFile/test/nginx/"
+#endif
+
+
+#ifndef NGX_CONF_PREFIX
+#define NGX_CONF_PREFIX  "conf/"
+#endif
+
+
+#ifndef NGX_SBIN_PATH
+#define NGX_SBIN_PATH  ""
+#endif
+
+
+#ifndef NGX_CONF_PATH
+#define NGX_CONF_PATH  "conf/nginx.conf"
+#endif
+
+
+#ifndef NGX_PID_PATH
+#define NGX_PID_PATH  "logs/nginx.pid"
+#endif
+
+
+#ifndef NGX_LOCK_PATH
+#define NGX_LOCK_PATH  "logs/nginx.lock"
+#endif
+
+
+#ifndef NGX_ERROR_LOG_PATH
+#define NGX_ERROR_LOG_PATH  "logs/error.log"
+#endif
+
+
+#ifndef NGX_HTTP_LOG_PATH
+#define NGX_HTTP_LOG_PATH  "logs/access.log"
+#endif
+
+
+#ifndef NGX_HTTP_CLIENT_TEMP_PATH
+#define NGX_HTTP_CLIENT_TEMP_PATH  "client_body_temp"
+#endif
+
+
+#ifndef NGX_HTTP_PROXY_TEMP_PATH
+#define NGX_HTTP_PROXY_TEMP_PATH  "proxy_temp"
+#endif
+
+
+#ifndef NGX_HTTP_FASTCGI_TEMP_PATH
+#define NGX_HTTP_FASTCGI_TEMP_PATH  "fastcgi_temp"
+#endif
+
+
+#ifndef NGX_HTTP_UWSGI_TEMP_PATH
+#define NGX_HTTP_UWSGI_TEMP_PATH  "uwsgi_temp"
+#endif
+
+
+#ifndef NGX_HTTP_SCGI_TEMP_PATH
+#define NGX_HTTP_SCGI_TEMP_PATH  "scgi_temp"
+#endif
+
+
+#ifndef NGX_SUPPRESS_WARN
+#define NGX_SUPPRESS_WARN  1
+#endif
+
+
+#ifndef NGX_SMP
+#define NGX_SMP  1
+#endif
+
+
+#ifndef NGX_USER
+#define NGX_USER  "nobody"
+#endif
+
+
+#ifndef NGX_GROUP
+#define NGX_GROUP  "nogroup"
 #endif
 
