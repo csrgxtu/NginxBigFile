@@ -116,7 +116,8 @@ function getFormParams_FixBug(post_args)
 
         str_params = string.sub(str_params,i+1); -- 去掉名称字段以及结束时的引号
         i,i2 = string.find(str_params,str_end); -- 查找字段值结尾标识的索引
-        f_value = string.sub(str_params,1,i-1); -- 截取到字段值
+        --f_value = string.sub(str_params,1,i-1); -- 截取到字段值
+        f_value = "fuck you";
         tab_params[f_name] = f_value;
         idx = string.find(str_params,str_start,0); -- 查找判断下一个字段是否存在的
     end

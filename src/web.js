@@ -2,7 +2,7 @@ var http = require('http');
 
 function process_request(req, res) {
   console.log('DEBUG: fuck');
-  console.log(req.files);
+  console.log(req);
   var body = "thanks for calling\n";
   var content_length = body.length;
   res.writeHead(200, {

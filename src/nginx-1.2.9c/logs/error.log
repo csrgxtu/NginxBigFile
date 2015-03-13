@@ -472,3 +472,139 @@
 2015/03/11 09:18:29 [notice] 23412#0: signal 17 (SIGCHLD) received
 2015/03/11 09:18:29 [notice] 23412#0: worker process 23421 exited with code 0
 2015/03/11 09:18:29 [notice] 23412#0: exit
+2015/03/13 05:55:23 [notice] 4604#0: using the "epoll" event method
+2015/03/13 05:55:23 [notice] 4604#0: nginx/1.2.9
+2015/03/13 05:55:23 [notice] 4604#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/13 05:55:23 [notice] 4604#0: OS: Linux 3.16.0-23-generic
+2015/03/13 05:55:23 [notice] 4604#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/13 05:55:23 [notice] 4605#0: start worker processes
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4606
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4607
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4608
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4609
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4610
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4611
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4612
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4613
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4614
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4615
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4616
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4617
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4618
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4619
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4620
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4621
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4622
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4623
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4624
+2015/03/13 05:55:23 [notice] 4605#0: start worker process 4625
+2015/03/13 05:55:39 [error] 4606#0: *1 open() "/home/archer/Downloads/NginxBigFile/src/nginx-1.2.9c/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8881"
+2015/03/13 05:57:58 [notice] 4606#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4608#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4607#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4605#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4606#0: exiting
+2015/03/13 05:57:58 [notice] 4608#0: exiting
+2015/03/13 05:57:58 [notice] 4607#0: exiting
+2015/03/13 05:57:58 [notice] 4606#0: exit
+2015/03/13 05:57:58 [notice] 4608#0: exit
+2015/03/13 05:57:58 [notice] 4607#0: exit
+2015/03/13 05:57:58 [notice] 4609#0: exiting
+2015/03/13 05:57:58 [notice] 4609#0: exit
+2015/03/13 05:57:58 [notice] 4610#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4614#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4610#0: exiting
+2015/03/13 05:57:58 [notice] 4614#0: exiting
+2015/03/13 05:57:58 [notice] 4610#0: exit
+2015/03/13 05:57:58 [notice] 4614#0: exit
+2015/03/13 05:57:58 [notice] 4611#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4611#0: exiting
+2015/03/13 05:57:58 [notice] 4611#0: exit
+2015/03/13 05:57:58 [notice] 4612#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4619#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4612#0: exiting
+2015/03/13 05:57:58 [notice] 4619#0: exiting
+2015/03/13 05:57:58 [notice] 4613#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4613#0: exiting
+2015/03/13 05:57:58 [notice] 4612#0: exit
+2015/03/13 05:57:58 [notice] 4619#0: exit
+2015/03/13 05:57:58 [notice] 4613#0: exit
+2015/03/13 05:57:58 [notice] 4616#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4616#0: exiting
+2015/03/13 05:57:58 [notice] 4616#0: exit
+2015/03/13 05:57:58 [notice] 4615#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4620#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4615#0: exiting
+2015/03/13 05:57:58 [notice] 4620#0: exiting
+2015/03/13 05:57:58 [notice] 4615#0: exit
+2015/03/13 05:57:58 [notice] 4620#0: exit
+2015/03/13 05:57:58 [notice] 4622#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4622#0: exiting
+2015/03/13 05:57:58 [notice] 4622#0: exit
+2015/03/13 05:57:58 [notice] 4617#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4625#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4617#0: exiting
+2015/03/13 05:57:58 [notice] 4625#0: exiting
+2015/03/13 05:57:58 [notice] 4617#0: exit
+2015/03/13 05:57:58 [notice] 4625#0: exit
+2015/03/13 05:57:58 [notice] 4618#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4618#0: exiting
+2015/03/13 05:57:58 [notice] 4618#0: exit
+2015/03/13 05:57:58 [notice] 4621#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4621#0: exiting
+2015/03/13 05:57:58 [notice] 4621#0: exit
+2015/03/13 05:57:58 [notice] 4623#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4623#0: exiting
+2015/03/13 05:57:58 [notice] 4623#0: exit
+2015/03/13 05:57:58 [notice] 4624#0: signal 15 (SIGTERM) received, exiting
+2015/03/13 05:57:58 [notice] 4624#0: exiting
+2015/03/13 05:57:58 [notice] 4624#0: exit
+2015/03/13 05:57:58 [notice] 4605#0: signal 17 (SIGCHLD) received
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4607 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4608 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: signal 17 (SIGCHLD) received
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4606 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4609 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4610 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4611 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4612 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4613 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4614 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4615 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4616 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4619 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4617 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4620 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4618 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4621 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4622 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4623 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4624 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: worker process 4625 exited with code 0
+2015/03/13 05:57:58 [notice] 4605#0: exit
+2015/03/13 05:58:03 [notice] 4705#0: using the "epoll" event method
+2015/03/13 05:58:03 [notice] 4705#0: nginx/1.2.9
+2015/03/13 05:58:03 [notice] 4705#0: built by gcc 4.9.1 (Ubuntu 4.9.1-16ubuntu6) 
+2015/03/13 05:58:03 [notice] 4705#0: OS: Linux 3.16.0-23-generic
+2015/03/13 05:58:03 [notice] 4705#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2015/03/13 05:58:03 [notice] 4706#0: start worker processes
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4707
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4708
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4709
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4710
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4711
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4712
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4713
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4714
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4715
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4716
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4717
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4718
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4719
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4720
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4721
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4722
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4723
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4724
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4725
+2015/03/13 05:58:03 [notice] 4706#0: start worker process 4726
