@@ -1,0 +1,4 @@
+218.104.155.150 - - [13/Mar/2015:17:44:34 +0800] "-" 400 0 "-" "-"
+157.7.201.241 - - [13/Mar/2015:17:47:48 +0800] "GET / HTTP/1.1" 200 316 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36"
+157.7.201.241 - - [13/Mar/2015:17:47:49 +0800] "GET /favicon.ico HTTP/1.1" 404 570 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36"
+157.7.201.241 - - [13/Mar/2015:17:48:02 +0800] "POST /upload HTTP/1.1" 500 594 "http://csrgxtu.com:8881/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36"

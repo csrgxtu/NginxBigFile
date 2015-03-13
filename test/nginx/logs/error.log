@@ -1,0 +1,8 @@
+2015/03/13 17:44:09 [alert] 423#0: lua_code_cache is off; this will hurt performance in /home/asr6/NginxBigFile/test/nginx/conf/nginx.conf:26
+2015/03/13 17:47:49 [error] 425#0: *2 open() "/home/asr6/NginxBigFile/test/nginx/html/favicon.ico" failed (2: No such file or directory), client: 157.7.201.241, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "csrgxtu.com:8881"
+2015/03/13 17:48:02 [error] 425#0: *2 lua entry thread aborted: runtime error: /home/asr6/NginxBigFile/test/onupload.lua:119: attempt to perform arithmetic on local 'i' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/asr6/NginxBigFile/test/onupload.lua: in function 'getFormParams_FixBug'
+	/home/asr6/NginxBigFile/test/onupload.lua:4: in function 'onupload'
+	/home/asr6/NginxBigFile/test/onupload.lua:128: in function </home/asr6/NginxBigFile/test/onupload.lua:1>, client: 157.7.201.241, server: localhost, request: "POST /upload HTTP/1.1", host: "csrgxtu.com:8881", referrer: "http://csrgxtu.com:8881/"
